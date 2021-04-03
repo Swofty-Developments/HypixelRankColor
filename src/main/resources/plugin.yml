@@ -1,0 +1,7 @@
+name: RankColor
+version: ${project.version}
+main: net.swofty.rankcolor.Loader
+
+commands:
+  rankcolor:
+    description: Placeholder description
