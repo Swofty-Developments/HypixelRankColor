@@ -215,91 +215,91 @@ public class GUIs implements Listener {
                 event.setCancelled(true);
                 break;
 
-            case "MVP++ Rank Color":
+            case "SVP+ Rank Color":
 
                 switch (event.getCurrentItem().getItemMeta().getDisplayName()) {
-                    case "§aRed MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Red!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&c++&6] &6\"");
+                    case "§aRed SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Red!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&c+&3] &3\"");
                         event.getWhoClicked().closeInventory();
 
                         break;
 
-                    case "§aOrange MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Orange!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&6++&6] &6\"");
+                    case "§aOrange SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Orange!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&6+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aLime MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Lime!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&a++&6] &6\"");
+                    case "§aLime SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Lime!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&a+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aYellow MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Yellow!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&e++&6] &6\"");
+                    case "§aYellow SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Yellow!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&e+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aPink MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Pink!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&d++&6] &6\"");
+                    case "§aPink SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Pink!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&d+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aWhite MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ White!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&f++&6] &6\"");
+                    case "§aWhite SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ White!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&f+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aLight Blue MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Light Blue!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&6++&6] &6\"");
+                    case "§aLight Blue SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Light Blue!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&6+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aGreen MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Green!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&2++&6] &6\"");
+                    case "§aGreen SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Green!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&2+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aDark Red MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Dark Red!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&4++&6] &6\"");
+                    case "§aDark Red SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Dark Red!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&4+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aCyan MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Cyan!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&3++&6] &6\"");
+                    case "§aCyan SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Cyan!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&3+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aPurple MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Purple!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&5++&6] &6\"");
+                    case "§aPurple SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Purple!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&5+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aGray MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Gray!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&7++&6] &6\"");
+                    case "§aGray SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Gray!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&7+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aBlack MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Black!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&0++&6] &6\"");
+                    case "§aBlack SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Black!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&0+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
-                    case "§aDark Blue MVP++ Rank Color":
-                        event.getWhoClicked().sendMessage(API.colorize("&aSelected MVP++ Dark Blue!"));
-                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&6[MVP&1++&6] &6\"");
+                    case "§aDark Blue SVP+ Rank Color":
+                        event.getWhoClicked().sendMessage(API.colorize("&aSelected SVP+ Dark Blue!"));
+                        Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "lp user " + event.getWhoClicked().getName() + " meta setprefix \"&3[SVP&1+&3] &3\"");
                         event.getWhoClicked().closeInventory();
                         break;
 
@@ -834,17 +834,17 @@ public class GUIs implements Listener {
         player.openInventory(gui);
     }
 
-    public static void giveMVPPlusPlusGUI(Player player) {
-        Inventory gui = Bukkit.createInventory(player, 45, "MVP++ Rank Color");
+    public static void giveSVPPlusPlusGUI(Player player) {
+        Inventory gui = Bukkit.createInventory(player, 45, "SVP+ Rank Color");
 
         Dye redDyeTemp = new Dye();
         redDyeTemp.setColor(DyeColor.RED);
         ItemStack redDye = redDyeTemp.toItemStack();
         redDye.setAmount(1);
         ItemMeta redDyeMeta = redDye.getItemMeta();
-        redDyeMeta.setDisplayName(API.colorize("&aRed MVP++ Rank Color"));
+        redDyeMeta.setDisplayName(API.colorize("&aRed SVP+ Rank Color"));
         ArrayList<String> redDyeLore = new ArrayList<String>();
-        redDyeLore.add(API.colorize("&7The default color for &6MVP&c++"));
+        redDyeLore.add(API.colorize("&7The default color for &6SVP&c++"));
         redDyeLore.add(API.colorize("&f "));
         redDyeLore.add(API.colorize("&eClick to select!"));
         redDyeMeta.setLore(redDyeLore); //Set the lore to the item
@@ -855,10 +855,10 @@ public class GUIs implements Listener {
         ItemStack orangeDye = orangeDyeTemp.toItemStack();
         orangeDye.setAmount(1);
         ItemMeta orangeDyeMeta = orangeDye.getItemMeta();
-        orangeDyeMeta.setDisplayName(API.colorize("&aOrange MVP++ Rank Color"));
+        orangeDyeMeta.setDisplayName(API.colorize("&aOrange SVP+ Rank Color"));
         ArrayList<String> orangeDyeLore = new ArrayList<String>();
-        orangeDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        orangeDyeLore.add(API.colorize("&7to orange, turning it into &6MVP&6++"));
+        orangeDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        orangeDyeLore.add(API.colorize("&7to orange, turning it into &6SVP&6++"));
         orangeDyeLore.add(API.colorize("&7 "));
         orangeDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         orangeDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -872,10 +872,10 @@ public class GUIs implements Listener {
         ItemStack limeDye = limeDyeTemp.toItemStack();
         limeDye.setAmount(1);
         ItemMeta limeDyeMeta = limeDye.getItemMeta();
-        limeDyeMeta.setDisplayName(API.colorize("&aLime MVP++ Rank Color"));
+        limeDyeMeta.setDisplayName(API.colorize("&aLime SVP+ Rank Color"));
         ArrayList<String> limeDyeLore = new ArrayList<String>();
-        limeDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        limeDyeLore.add(API.colorize("&7to lime, turning it into &6MVP&a++"));
+        limeDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        limeDyeLore.add(API.colorize("&7to lime, turning it into &6SVP&a++"));
         limeDyeLore.add(API.colorize("&7 "));
         limeDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         limeDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -889,10 +889,10 @@ public class GUIs implements Listener {
         ItemStack yellowDye = yellowDyeTemp.toItemStack();
         yellowDye.setAmount(1);
         ItemMeta yellowDyeMeta = yellowDye.getItemMeta();
-        yellowDyeMeta.setDisplayName(API.colorize("&aYellow MVP++ Rank Color"));
+        yellowDyeMeta.setDisplayName(API.colorize("&aYellow SVP+ Rank Color"));
         ArrayList<String> yellowDyeLore = new ArrayList<String>();
-        yellowDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        yellowDyeLore.add(API.colorize("&7to yellow, turning it into &6MVP&e++"));
+        yellowDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        yellowDyeLore.add(API.colorize("&7to yellow, turning it into &6SVP&e++"));
         yellowDyeLore.add(API.colorize("&7 "));
         yellowDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         yellowDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -906,10 +906,10 @@ public class GUIs implements Listener {
         ItemStack pinkDye = pinkDyeTemp.toItemStack();
         pinkDye.setAmount(1);
         ItemMeta pinkDyeMeta = pinkDye.getItemMeta();
-        pinkDyeMeta.setDisplayName(API.colorize("&aPink MVP++ Rank Color"));
+        pinkDyeMeta.setDisplayName(API.colorize("&aPink SVP+ Rank Color"));
         ArrayList<String> pinkDyeLore = new ArrayList<String>();
-        pinkDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        pinkDyeLore.add(API.colorize("&7to pink, turning it into &6MVP&d++"));
+        pinkDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        pinkDyeLore.add(API.colorize("&7to pink, turning it into &6SVP&d++"));
         pinkDyeLore.add(API.colorize("&7 "));
         pinkDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         pinkDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -923,10 +923,10 @@ public class GUIs implements Listener {
         ItemStack whiteDye = whiteDyeTemp.toItemStack();
         whiteDye.setAmount(1);
         ItemMeta whiteDyeMeta = whiteDye.getItemMeta();
-        whiteDyeMeta.setDisplayName(API.colorize("&aWhite MVP++ Rank Color"));
+        whiteDyeMeta.setDisplayName(API.colorize("&aWhite SVP+ Rank Color"));
         ArrayList<String> whiteDyeLore = new ArrayList<String>();
-        whiteDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        whiteDyeLore.add(API.colorize("&7to white, turning it into &6MVP&f++"));
+        whiteDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        whiteDyeLore.add(API.colorize("&7to white, turning it into &6SVP&f++"));
         whiteDyeLore.add(API.colorize("&7 "));
         whiteDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         whiteDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -940,10 +940,10 @@ public class GUIs implements Listener {
         ItemStack lblueDye = lblueDyeTemp.toItemStack();
         lblueDye.setAmount(1);
         ItemMeta lblueDyeMeta = lblueDye.getItemMeta();
-        lblueDyeMeta.setDisplayName(API.colorize("&aLight Blue MVP++ Rank Color"));
+        lblueDyeMeta.setDisplayName(API.colorize("&aLight Blue SVP+ Rank Color"));
         ArrayList<String> lblueDyeLore = new ArrayList<String>();
-        lblueDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        lblueDyeLore.add(API.colorize("&7to light blue, turning it into &6MVP&b++"));
+        lblueDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        lblueDyeLore.add(API.colorize("&7to light blue, turning it into &6SVP&b++"));
         lblueDyeLore.add(API.colorize("&7 "));
         lblueDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         lblueDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -957,10 +957,10 @@ public class GUIs implements Listener {
         ItemStack greenDye = greenDyeTemp.toItemStack();
         greenDye.setAmount(1);
         ItemMeta greenDyeMeta = greenDye.getItemMeta();
-        greenDyeMeta.setDisplayName(API.colorize("&aGreen MVP++ Rank Color"));
+        greenDyeMeta.setDisplayName(API.colorize("&aGreen SVP+ Rank Color"));
         ArrayList<String> greenDyeLore = new ArrayList<String>();
-        greenDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        greenDyeLore.add(API.colorize("&7to green, turning it into &6MVP&2++"));
+        greenDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        greenDyeLore.add(API.colorize("&7to green, turning it into &6SVP&2++"));
         greenDyeLore.add(API.colorize("&7 "));
         greenDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         greenDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -972,10 +972,10 @@ public class GUIs implements Listener {
         ItemStack darkredDye = new ItemStack(Material.REDSTONE);
         darkredDye.setAmount(1);
         ItemMeta darkredDyeMeta = darkredDye.getItemMeta();
-        darkredDyeMeta.setDisplayName(API.colorize("&aDark Red MVP++ Rank Color"));
+        darkredDyeMeta.setDisplayName(API.colorize("&aDark Red SVP+ Rank Color"));
         ArrayList<String> darkredDyeLore = new ArrayList<String>();
-        darkredDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        darkredDyeLore.add(API.colorize("&7to dark red, turning it into &6MVP&4++"));
+        darkredDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        darkredDyeLore.add(API.colorize("&7to dark red, turning it into &6SVP&4++"));
         darkredDyeLore.add(API.colorize("&7 "));
         darkredDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         darkredDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -989,10 +989,10 @@ public class GUIs implements Listener {
         ItemStack cyanDye = cyanDyeTemp.toItemStack();
         cyanDye.setAmount(1);
         ItemMeta cyanDyeMeta = cyanDye.getItemMeta();
-        cyanDyeMeta.setDisplayName(API.colorize("&aCyan MVP++ Rank Color"));
+        cyanDyeMeta.setDisplayName(API.colorize("&aCyan SVP+ Rank Color"));
         ArrayList<String> cyanDyeLore = new ArrayList<String>();
-        cyanDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        cyanDyeLore.add(API.colorize("&7to cyan, turning it into &6MVP&3++"));
+        cyanDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        cyanDyeLore.add(API.colorize("&7to cyan, turning it into &6SVP&3++"));
         cyanDyeLore.add(API.colorize("&7 "));
         cyanDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         cyanDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -1006,10 +1006,10 @@ public class GUIs implements Listener {
         ItemStack purpleDye = purpleDyeTemp.toItemStack();
         purpleDye.setAmount(1);
         ItemMeta purpleDyeMeta = purpleDye.getItemMeta();
-        purpleDyeMeta.setDisplayName(API.colorize("&aPurple MVP++ Rank Color"));
+        purpleDyeMeta.setDisplayName(API.colorize("&aPurple SVP+ Rank Color"));
         ArrayList<String> purpleDyeLore = new ArrayList<String>();
-        purpleDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        purpleDyeLore.add(API.colorize("&7to purple, turning it into &6MVP&5++"));
+        purpleDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        purpleDyeLore.add(API.colorize("&7to purple, turning it into &6SVP&5++"));
         purpleDyeLore.add(API.colorize("&7 "));
         purpleDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         purpleDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -1023,10 +1023,10 @@ public class GUIs implements Listener {
         ItemStack greyDye = greyDyeTemp.toItemStack();
         greyDye.setAmount(1);
         ItemMeta greyDyeMeta = greyDye.getItemMeta();
-        greyDyeMeta.setDisplayName(API.colorize("&aGray MVP++ Rank Color"));
+        greyDyeMeta.setDisplayName(API.colorize("&aGray SVP+ Rank Color"));
         ArrayList<String> greyDyeLore = new ArrayList<String>();
-        greyDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        greyDyeLore.add(API.colorize("&7to grey, turning it into &6MVP&7++"));
+        greyDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        greyDyeLore.add(API.colorize("&7to grey, turning it into &6SVP&7++"));
         greyDyeLore.add(API.colorize("&7 "));
         greyDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         greyDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -1040,10 +1040,10 @@ public class GUIs implements Listener {
         ItemStack blackDye = blackDyeTemp.toItemStack();
         blackDye.setAmount(1);
         ItemMeta blackDyeMeta = blackDye.getItemMeta();
-        blackDyeMeta.setDisplayName(API.colorize("&aBlack MVP++ Rank Color"));
+        blackDyeMeta.setDisplayName(API.colorize("&aBlack SVP+ Rank Color"));
         ArrayList<String> blackDyeLore = new ArrayList<String>();
-        blackDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        blackDyeLore.add(API.colorize("&7to black, turning it into &6MVP&0++"));
+        blackDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        blackDyeLore.add(API.colorize("&7to black, turning it into &6SVP&0++"));
         blackDyeLore.add(API.colorize("&7 "));
         blackDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         blackDyeLore.add(API.colorize("&7and joining lobbies."));
@@ -1057,10 +1057,10 @@ public class GUIs implements Listener {
         ItemStack dblueDye = dblueDyeTemp.toItemStack();
         dblueDye.setAmount(1);
         ItemMeta dblueDyeMeta = dblueDye.getItemMeta();
-        dblueDyeMeta.setDisplayName(API.colorize("&aDark Blue MVP++ Rank Color"));
+        dblueDyeMeta.setDisplayName(API.colorize("&aDark Blue SVP+ Rank Color"));
         ArrayList<String> dblueDyeLore = new ArrayList<String>();
-        dblueDyeLore.add(API.colorize("&7Changes the color of the plus in &6MVP&c++"));
-        dblueDyeLore.add(API.colorize("&7to dark blue, turning it into &6MVP&1++"));
+        dblueDyeLore.add(API.colorize("&7Changes the color of the plus in &6SVP&c++"));
+        dblueDyeLore.add(API.colorize("&7to dark blue, turning it into &6SVP&1++"));
         dblueDyeLore.add(API.colorize("&7 "));
         dblueDyeLore.add(API.colorize("&7Shown in tab list also when chatting"));
         dblueDyeLore.add(API.colorize("&7and joining lobbies."));

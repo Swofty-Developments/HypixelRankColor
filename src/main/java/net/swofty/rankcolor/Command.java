@@ -17,20 +17,14 @@ public class Command {
         if (label.equalsIgnoreCase("rankcolor")) {
             Player player = (Player) sender;
 
-            List<User> usersInGroupVIPPlus = API.getUsersInGroup("vip+");
-            List<User> usersInGroupMVPPlus = API.getUsersInGroup("mvp+");
-            List<User> usersInGroupMVPPlusPlus = API.getUsersInGroup("mvp++");
-            LuckPerms api = LuckPermsProvider.get();
-            UserManager userManager = api.getUserManager();
-
-            if (usersInGroupVIPPlus.contains(userManager.getUser(player.getUniqueId()))) {
+            if (player.hasPermission("rankcolor.vipplus")) {
                 GUIs.giveVIPPlusGUI(player);
-            } else if (usersInGroupMVPPlus.contains(userManager.getUser(player.getUniqueId()))) {
+            } else if (player.hasPermission("rankcolor.mvpplus")) {
                 GUIs.giveMVPPlusGUI(player);
-            } else if (usersInGroupMVPPlusPlus.contains(userManager.getUser(player.getUniqueId()))) {
-                GUIs.giveMVPPlusPlusGUI(player);
+            } else if (player.hasPermission("rankcolor.svpplus")) {
+                GUIs.giveSVPPlusPlusGUI(player);
             } else {
-                player.sendMessage(API.colorize("&cYou do not have VIP+ / MVP+ / MVP++"));
+                player.sendMessage(API.colorize("&cYou do not have VIP+ / MVP+ / SVP+"));
             }
         }
     }
